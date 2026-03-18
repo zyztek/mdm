@@ -1,0 +1,16 @@
+node_modules/
+**/node_modules/
+.env
+backend/data/*.sqlite
+backend/data/*.db
+frontend/build/
+dashboard/build/
+*.log
+.DS_Store
+package-lock.json
+**/package-lock.json
+adb_output.txt
+backend/server.log
+backend/backend.log
+frontend/frontend.log
+dashboard/dashboard.log

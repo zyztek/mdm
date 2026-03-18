@@ -1,0 +1,20 @@
+{
+  "name": "samsung-mdm-remover",
+  "version": "1.0.0",
+  "description": "Samsung MDM/Knox Removal Tool",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../dashboard && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" \"npm run dev:dashboard\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "dev:dashboard": "cd dashboard && npm start",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
